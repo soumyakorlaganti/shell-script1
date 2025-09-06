@@ -9,7 +9,6 @@ G="\e[32m"
 Y="\e[33m"
 N="\e[0m"
 
-
 VALIDATE(){
     if [ $1 -ne 0 ]
     then
@@ -27,7 +26,6 @@ then
 else 
     echo "You are super user."
 fi
-
 
 for i in $@
 do 
